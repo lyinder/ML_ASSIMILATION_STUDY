@@ -9,3 +9,4 @@ Run in order, from a folder holding the raw survey files (`so2023/results.csv` .
 
 The sealed 2026 holdout is never read. `clean_2026()` in `clean.py` and the saved 2026 imputers and scalers are applied to it unchanged later.
 5. `encode.py <out_dir>`: one-hot encodes unordered categories (work setting, employment, job threat, where AI was learned, region, top 10 countries); missing stays missing. Every encoded variable is listed in `encoding_dictionary.csv`.
+6. `structural.py <out_dir>` and `structural_b2.py <out_dir>`: maximum-likelihood fit of the identity-assimilation optimisation model in raw years (EU, 2023–2026, 5 imputations, Rubin). `structural_b2.py` refits delegation with core-task x year terms and is the preferred delegation block.
