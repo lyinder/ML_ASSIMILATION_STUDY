@@ -1,0 +1,11 @@
+,2023,2024,2025,2026,all_years
+f_2025_blank_exp_set0,0,0,2881,0,2881
+f_workexp_gt50,0,0,147,90,237
+f_yearscode_gt50,353,254,248,158,1013
+f_yearscodepro_gt50,83,50,0,0,133
+f_exp_exceeds_age,174,136,93,63,466
+f_pro_exceeds_total,677,495,0,0,1172
+f_low_effort,1211,3059,2614,1384,8268
+f_duplicate_id,0,0,0,0,0
+rows,89184,65437,49191,21563,225375
+professional developers,67237,50207,37467,14141,169052
