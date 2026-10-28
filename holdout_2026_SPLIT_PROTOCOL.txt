@@ -1,0 +1,7 @@
+Stack Overflow Developer Survey 2026: exploration / holdout split
+Created: 2026-10-27, before any 2026 results were analysed (only question list and answer options inspected).
+Method: each respondent assigned to holdout with probability 0.30, numpy default_rng(seed=20261027), on the full file of 30,903 rows.
+Explore: so2026_explore_70.csv. Use freely.
+Holdout: so2026_HOLDOUT_30_SEALED.csv. Do not open until hypotheses, sample filter and model are frozen in the pre-registration.
+holdout_ids.csv lists ResponseIds in the holdout (IDs only, no answers).
+Verify with: sha256sum -c SHA256SUMS.txt
