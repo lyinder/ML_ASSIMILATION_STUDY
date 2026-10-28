@@ -1,0 +1,59 @@
+variable,source,level,type,note
+work_remote,remote,remote,one-hot,imputed (MICE) work setting
+work_hybrid,remote,hybrid,one-hot,imputed (MICE) work setting
+work_in_person,remote,in_person,one-hot,imputed (MICE) work setting
+emp_employed,employment_grp,employed,one-hot,"other = student, not employed, retired, other"
+emp_self_employed,employment_grp,self_employed,one-hot,"other = student, not employed, retired, other"
+emp_other,employment_grp,other,one-hot,"other = student, not employed, retired, other"
+threat_yes,threat,yes,one-hot,asked 2024-2025 only; missing otherwise
+threat_unsure,threat,unsure,one-hot,asked 2024-2025 only; missing otherwise
+threat_no,threat,no,one-hot,asked 2024-2025 only; missing otherwise
+learnai_both,learn_ai,both,one-hot,asked 2026 only
+learnai_work,learn_ai,work,one-hot,asked 2026 only
+learnai_own,learn_ai,own,one-hot,asked 2026 only
+learnai_no,learn_ai,no,one-hot,asked 2026 only
+region_eu,region,eu,one-hot,unknown = country not reported
+region_us,region,us,one-hot,unknown = country not reported
+region_other,region,other,one-hot,unknown = country not reported
+region_unknown,region,unknown,one-hot,unknown = country not reported
+ctry_United_States,country,United States of America,one-hot,top 10 countries fixed on exploration data
+ctry_Germany,country,Germany,one-hot,top 10 countries fixed on exploration data
+ctry_India,country,India,one-hot,top 10 countries fixed on exploration data
+ctry_United_Kingdom,country,United Kingdom of Great Britain and Northern Ireland,one-hot,top 10 countries fixed on exploration data
+ctry_Canada,country,Canada,one-hot,top 10 countries fixed on exploration data
+ctry_France,country,France,one-hot,top 10 countries fixed on exploration data
+ctry_Poland,country,Poland,one-hot,top 10 countries fixed on exploration data
+ctry_Netherlands,country,Netherlands,one-hot,top 10 countries fixed on exploration data
+ctry_Ukraine,country,Ukraine,one-hot,top 10 countries fixed on exploration data
+ctry_Brazil,country,Brazil,one-hot,top 10 countries fixed on exploration data
+ctry_other,country,other,one-hot,top 10 countries fixed on exploration data
+ctry_unknown,country,unknown,one-hot,top 10 countries fixed on exploration data
+age_ord,age_ord,,ordinal,1 = under 18 ... 7 = 65+
+edu_ord,edu_ord,,ordinal,"1 primary ... 5 bachelor, 6 master, 7 professional/doctorate"
+org_ord,org_ord,,ordinal,"1 freelancer, 2 under 20 ... 8 = 10,000+"
+remote_ord,remote_ord,,ordinal,"0 remote, 1 hybrid, 2 in person"
+sent_score,sent_score,,ordinal,1 very unfavourable ... 5 very favourable
+trust_score,trust_score,,ordinal,1 highly distrust ... 5 highly trust (2023-2025)
+trust26_score,trust26_score,,ordinal,1 do not trust for most tasks ... 5 trust incl. important decisions (2026)
+complex_score,complex_score,,ordinal,1 very poor ... 5 very well (2024-2026)
+pressure_ord,pressure_ord,,ordinal,"1 low, 2 medium, 3 high (2026)"
+ai_daily_ord,ai_daily_ord,,ordinal,1 under 1 hour not daily ... 5 = 4+ hours a day (2026)
+sat_*,sat_*,,ordinal,1 greatly decreased ... 5 greatly improved (2026)
+useful_*,useful_*,,ordinal,1 not useful ... 4 very useful (2026)
+manager,manager,,binary 0/1,
+uses_ai,uses_ai,,binary 0/1,
+plans_ai,plans_ai,,binary 0/1,
+eu,eu,,binary 0/1,
+us,us,,binary 0/1,
+avoid_none,avoid_none,,binary 0/1,
+avoid_skill_loss,avoid_skill_loss,,binary 0/1,
+verify_external,verify_external,,binary 0/1,
+verify_own,verify_own,,binary 0/1,
+t_writing_code,t_writing_code,,binary 0/1,
+t_debugging,t_debugging,,binary 0/1,
+t_reviewing_code,t_reviewing_code,,binary 0/1,
+t_documenting_code,t_documenting_code,,binary 0/1,
+t_testing_code,t_testing_code,,binary 0/1,
+t_learning_a_codebase,t_learning_a_codebase,,binary 0/1,
+t_project_planning,t_project_planning,,binary 0/1,
+t_deployment_and_monitoring,t_deployment_and_monitoring,,binary 0/1,
